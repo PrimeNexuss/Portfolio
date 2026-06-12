@@ -88,14 +88,6 @@ cybersecurity-portfolio/
 
 The theme uses Tailwind CSS with custom CSS variables defined in `src/styles/theme.css`. You can customize colors, spacing, and other design tokens by modifying the CSS variables.
 
-## Deployment
-
-This project can be deployed to any static hosting service:
-
-- **Vercel**: `vercel deploy`
-- **Netlify**: Connect your Git repository
-- **GitHub Pages**: Use the GitHub Actions workflow
-
 ## Performance
 
 - Optimized build with Vite
