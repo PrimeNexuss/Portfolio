@@ -1,34 +1,27 @@
 # Cybersecurity Portfolio
 
-A modern, expert-level cybersecurity portfolio website built with React, Vite, Tailwind CSS, and shadcn/ui components.
+A modern cybersecurity portfolio showcasing expertise in penetration testing, vulnerability assessment, and security operations.
+
+## About
+
+This portfolio belongs to **Greg Ochieng**, a cybersecurity professional and penetration tester, and founder of Nex-Experience Consultancies.
 
 ## Features
 
-- **Hero Section**: Eye-catching introduction with animated shield icon and gradient text
-- **Core Competencies**: 8 skill cards showcasing cybersecurity expertise
-- **Featured Projects**: 13 real-world security projects with CVSS scores and GitHub links
-- **Education & Experience**: Academic background and professional experience
-- **Technical Proficiency**: Comprehensive list of security tools and technologies
-- **Contact Section**: Contact form and social media links
-- **Responsive Design**: Fully responsive across all device sizes
-- **Modern UI**: Dark theme with red accent colors and smooth animations
-
-## Tech Stack
-
-- **React 18.3.1** - UI library
-- **Vite 6.3.5** - Build tool and dev server
-- **Tailwind CSS 4.1.12** - Utility-first CSS framework
-- **shadcn/ui** - High-quality UI components
-- **Radix UI** - Headless UI primitives
-- **Lucide React** - Beautiful icon library
-- **TypeScript** - Type safety
+- Hero section with animated introduction
+- Core competencies and technical skills
+- Featured security projects with CVSS scores
+- Education and professional experience
+- Technical proficiency in security tools
+- Contact information and social links
+- Fully responsive design
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ 
-- pnpm (recommended) or npm
+- Node.js 18+
+- pnpm or npm
 
 ### Installation
 
@@ -41,67 +34,17 @@ pnpm dev
 
 # Build for production
 pnpm build
-
-# Preview production build
-pnpm preview
-```
-
-## Project Structure
-
-```
-cybersecurity-portfolio/
-├── src/
-│   ├── app/
-│   │   ├── components/
-│   │   │   ├── ui/          # shadcn/ui components
-│   │   │   ├── Hero.tsx     # Hero section
-│   │   │   ├── Skills.tsx   # Skills section
-│   │   │   ├── Projects.tsx # Projects section
-│   │   │   ├── Certifications.tsx # Education & Experience
-│   │   │   └── Contact.tsx  # Contact section
-│   │   └── App.tsx          # Main app component
-│   ├── styles/
-│   │   ├── fonts.css        # Font imports
-│   │   ├── tailwind.css     # Tailwind configuration
-│   │   ├── theme.css        # Theme variables
-│   │   └── index.css        # Main stylesheet
-│   └── main.tsx             # Entry point
-├── index.html
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-└── postcss.config.mjs
 ```
 
 ## Customization
 
-### Updating Content
+To customize the portfolio content, edit the following files:
 
-- **Hero**: Edit `src/app/components/Hero.tsx`
-- **Skills**: Modify the `skills` array in `src/app/components/Skills.tsx`
-- **Projects**: Update the `projects` array in `src/app/components/Projects.tsx`
-- **Education**: Edit the `education` array in `src/app/components/Certifications.tsx`
-- **Experience**: Modify the `experience` array in `src/app/components/Certifications.tsx`
-- **Contact**: Update contact information in `src/app/components/Contact.tsx`
-
-### Styling
-
-The theme uses Tailwind CSS with custom CSS variables defined in `src/styles/theme.css`. You can customize colors, spacing, and other design tokens by modifying the CSS variables.
-
-## Performance
-
-- Optimized build with Vite
-- Tree-shaking for minimal bundle size
-- Lazy loading for better initial load time
-- CSS purging with Tailwind CSS
-
-## Accessibility
-
-- Semantic HTML elements
-- ARIA labels where needed
-- Keyboard navigation support
-- High contrast ratios for readability
-- Responsive design for all screen sizes
+- **Hero**: `src/app/components/Hero.tsx`
+- **Skills**: `src/app/components/Skills.tsx`
+- **Projects**: `src/app/components/Projects.tsx`
+- **Education & Experience**: `src/app/components/Certifications.tsx`
+- **Contact**: `src/app/components/Contact.tsx`
 
 ## License
 
