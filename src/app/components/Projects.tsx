@@ -219,8 +219,8 @@ export function Projects() {
                   )}
                 </div>
 
-                <h3 className="text-lg sm:text-xl mb-3 text-white font-semibold group-hover:text-red-400 transition-colors">{project.title}</h3>
-                <p className="text-slate-400 text-xs sm:text-sm mb-4 flex-grow leading-relaxed">{project.description}</p>
+                <h3 className="text-base sm:text-lg md:text-xl mb-3 text-white font-semibold group-hover:text-red-400 transition-colors break-words">{project.title}</h3>
+                <p className="text-slate-400 text-xs sm:text-sm mb-4 flex-grow leading-relaxed break-words">{project.description}</p>
                 
                 <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-4">
                   {project.tags.slice(0, 4).map((tag, tagIndex) => (

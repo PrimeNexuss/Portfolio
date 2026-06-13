@@ -132,8 +132,8 @@ export function Certifications() {
                       {edu.status}
                     </Badge>
                   </div>
-                  <h3 className="text-lg sm:text-xl mb-2 text-white font-semibold group-hover:text-red-400 transition-colors">{edu.name}</h3>
-                  <p className="text-xs sm:text-sm text-slate-300 mb-2">{edu.institution}</p>
+                  <h3 className="text-base sm:text-lg md:text-xl mb-2 text-white font-semibold group-hover:text-red-400 transition-colors break-words">{edu.name}</h3>
+                  <p className="text-xs sm:text-sm text-slate-300 mb-2 break-words">{edu.institution}</p>
                   <p className="text-xs sm:text-sm text-slate-400">{edu.period}</p>
                 </Card>
               );
@@ -171,8 +171,8 @@ export function Certifications() {
                       </div>
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-lg sm:text-xl mb-1 text-white font-semibold group-hover:text-red-400 transition-colors">{exp.title}</h3>
-                      <p className="text-xs sm:text-sm text-slate-300 mb-1">{exp.company} • {exp.location}</p>
+                      <h3 className="text-base sm:text-lg md:text-xl mb-1 text-white font-semibold group-hover:text-red-400 transition-colors break-words">{exp.title}</h3>
+                      <p className="text-xs sm:text-sm text-slate-300 mb-1 break-words">{exp.company} • {exp.location}</p>
                       <p className="text-xs sm:text-sm text-slate-400">{exp.period}</p>
                     </div>
                   </div>

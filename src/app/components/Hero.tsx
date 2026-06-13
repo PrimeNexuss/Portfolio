@@ -72,11 +72,11 @@ export function Hero() {
           Greg Ochieng
         </h1>
 
-        <p ref={subtitleRef.elementRef as any} className="text-lg sm:text-xl md:text-2xl text-slate-300 mb-6 sm:mb-8 min-h-[2rem]">
+        <p ref={subtitleRef.elementRef as any} className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-300 mb-6 sm:mb-8 min-h-[2rem] break-words">
           {typedText}<span className="animate-pulse opacity-50">|</span>
         </p>
 
-        <p ref={descriptionRef.elementRef as any} className="text-sm sm:text-base text-slate-400 mb-8 sm:mb-12 max-w-2xl mx-auto px-4">
+        <p ref={descriptionRef.elementRef as any} className="text-xs sm:text-sm text-slate-400 mb-8 sm:mb-12 max-w-2xl mx-auto px-4 break-words">
           A highly motivated and analytical cybersecurity professional with a strong foundation in information science and software development. Experienced in penetration testing, vulnerability assessment, and hands-on exploitation of real-world attack vectors in controlled lab environments. Committed to continuous professional growth and enhancing organizational security postures.
         </p>
         

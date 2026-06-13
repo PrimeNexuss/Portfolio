@@ -114,7 +114,7 @@ export function Contact() {
                 </div>
                 <div className="flex-1">
                   <h4 className="text-base sm:text-lg mb-1 text-white font-semibold group-hover:text-red-400 transition-colors">Email</h4>
-                  <p className="text-xs sm:text-sm text-slate-400 mb-2">ochienggreg777@gmail.com</p>
+                  <p className="text-xs sm:text-sm text-slate-400 mb-2 break-words">ochienggreg777@gmail.com</p>
                   <a href="mailto:ochienggreg777@gmail.com" className="text-red-500 text-xs sm:text-sm hover:text-red-400 transition-colors">
                     Send an email →
                   </a>
