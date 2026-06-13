@@ -4,7 +4,8 @@ A modern cybersecurity portfolio showcasing expertise in penetration testing, vu
 
 ## About
 
-This portfolio belongs to **Greg Ochieng**, a cybersecurity professional and penetration tester, and founder of Nex-Experience Consultancies.
+This portfolio belongs to **Greg Ochieng**, a cybersecurity professional and penetration tester.
+Founder, Nex-Experience Consultancies.
 
 ## Features
 
