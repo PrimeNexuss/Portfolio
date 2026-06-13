@@ -45,7 +45,6 @@ export default function App() {
           </div>
           <div className="border-t border-slate-800/50 pt-8 text-center">
             <p className="text-slate-400 text-sm">© 2026 Greg Ochieng. Cybersecurity Professional & Penetration Tester.</p>
-            <p className="text-slate-500 text-xs mt-2">Built with React, TypeScript, and Tailwind CSS</p>
           </div>
         </div>
       </footer>
