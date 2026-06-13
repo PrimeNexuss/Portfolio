@@ -10,9 +10,9 @@ export function Hero() {
 
   useEffect(() => {
     // Show first line after a delay
-    setTimeout(() => setShowText1(true), 500);
+    setTimeout(() => setShowText1(true), 800);
     // Show second line after first line
-    setTimeout(() => setShowText2(true), 2000);
+    setTimeout(() => setShowText2(true), 3000);
   }, []);
 
   const iconRef = useWebAnimation({
@@ -66,10 +66,10 @@ export function Hero() {
           Greg Ochieng
         </h1>
 
-        <p ref={subtitleRef.elementRef as any} className={`text-base sm:text-lg md:text-xl lg:text-2xl text-slate-300 mb-2 sm:mb-3 min-h-[2rem] break-words transition-all duration-700 ${showText1 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+        <p ref={subtitleRef.elementRef as any} className={`text-base sm:text-lg md:text-xl lg:text-2xl text-slate-300 mb-2 sm:mb-3 min-h-[2rem] break-words transition-all duration-1500 ease-bounce ${showText1 ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-8 scale-90'}`}>
           Cybersecurity Professional | Penetration Tester
         </p>
-        <p className={`text-base sm:text-lg md:text-xl lg:text-2xl text-slate-300 mb-6 sm:mb-8 min-h-[2rem] break-words transition-all duration-700 ${showText2 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+        <p className={`text-base sm:text-lg md:text-xl lg:text-2xl text-slate-300 mb-6 sm:mb-8 min-h-[2rem] break-words transition-all duration-1500 ease-bounce ${showText2 ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-8 scale-90'}`}>
           Founder, Nex-Experience Consultancies
         </p>
 
